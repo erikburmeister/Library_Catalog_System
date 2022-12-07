@@ -1,0 +1,282 @@
+Welcome to the Library of Students Catalog System!
+What would you like to do?
+
+Reminder: type 'exit' when ready to quit.
+
+'Add', 'Search', 'Directory', 'Edit', or 'Remove' a book from the catalog: directory
+
+Reminder: type 'back' when ready to go back to the main menu.
+
+DIRECTORY: Would you prefer to see the 'ISBN' or 'book title' directory? isbn
+     ISBN  Reference Number
+0  D00001                 0
+1  D00002                52
+2  D00005               156
+3  G00006               208
+4  L00003               104
+5  U00007               260
+
+Reminder: type 'back' when ready to go back to the main menu.
+
+DIRECTORY: Would you prefer to see the 'ISBN' or 'book title' directory? title
+               Book Title    ISBN
+0  Catching Fire           D00002
+1  Mockingjay              L00003
+2  The Death Cure          U00007
+3  The Hunger Games        D00001
+4  The Maze Runner         D00005
+5  The Scorch Trials       G00006
+
+Reminder: type 'back' when ready to go back to the main menu.
+
+DIRECTORY: Would you prefer to see the 'ISBN' or 'book title' directory? back
+
+Reminder: type 'exit' when ready to quit.
+
+'Add', 'Search', 'Directory', 'Edit', or 'Remove' a book from the catalog: add
+
+INSTRUCTIONS
+Type in book information. Each record can only store 50 characters.
+ISBNs can hold up to 6 characters (randomly assigned letter + 5 characters)
+Book Name can hold up to 22 characters.
+Author Name can hold up to 22 characters.
+Any part of the record past the limit of characters will be cut off.
+
+Enter isbn: 888888
+Enter book name: Delete Me
+Enter author's name: Ghost Jones
+
+Book Added
+ISBN: I88888
+Book Title: Delete Me             
+Author: Ghost Jones           
+
+Reminder: type 'exit' when ready to quit.
+
+'Add', 'Search', 'Directory', 'Edit', or 'Remove' a book from the catalog: add
+
+INSTRUCTIONS
+Type in book information. Each record can only store 50 characters.
+ISBNs can hold up to 6 characters (randomly assigned letter + 5 characters)
+Book Name can hold up to 22 characters.
+Author Name can hold up to 22 characters.
+Any part of the record past the limit of characters will be cut off.
+
+Enter isbn: 999999
+Enter book name: Edit Me
+Enter author's name: John Mistake
+
+Book Added
+ISBN: M99999
+Book Title: Edit Me               
+Author: John Mistake          
+
+Reminder: type 'exit' when ready to quit.
+
+'Add', 'Search', 'Directory', 'Edit', or 'Remove' a book from the catalog: directory
+
+Reminder: type 'back' when ready to go back to the main menu.
+
+DIRECTORY: Would you prefer to see the 'ISBN' or 'book title' directory? isbn
+     ISBN  Reference Number
+0  D00001                 0
+1  D00002                52
+2  D00005               156
+3  G00006               208
+4  I88888               312
+5  L00003               104
+6  M99999               364
+7  U00007               260
+
+Reminder: type 'back' when ready to go back to the main menu.
+
+DIRECTORY: Would you prefer to see the 'ISBN' or 'book title' directory? title
+               Book Title    ISBN
+0  Catching Fire           D00002
+1  Delete Me               I88888
+2  Edit Me                 M99999
+3  Mockingjay              L00003
+4  The Death Cure          U00007
+5  The Hunger Games        D00001
+6  The Maze Runner         D00005
+7  The Scorch Trials       G00006
+
+Reminder: type 'back' when ready to go back to the main menu.
+
+DIRECTORY: Would you prefer to see the 'ISBN' or 'book title' directory? back
+
+Reminder: type 'exit' when ready to quit.
+
+'Add', 'Search', 'Directory', 'Edit', or 'Remove' a book from the catalog: remove
+Delete by ISBN: I88888
+
+Book with the ISBN 'I88888' has been deleted.
+The title of the book that was deleted is 'Delete Me'.
+
+Reminder: type 'exit' when ready to quit.
+
+'Add', 'Search', 'Directory', 'Edit', or 'Remove' a book from the catalog: remove
+Delete by ISBN: gggggg
+
+A book with that ISBN does not exist.
+
+Reminder: type 'exit' when ready to quit.
+
+'Add', 'Search', 'Directory', 'Edit', or 'Remove' a book from the catalog: edit
+
+To edit a record first find it using an ISBN.
+Search by ISBN: M99999
+
+Search Results:
+M99999|Edit Me               |John Mistake          
+
+Modify Book Information
+Enter isbn: 000099
+Enter book name: An Edited Title
+Enter author's name: John Correct
+
+New Book Information
+Updated ISBN: S00099
+Updated Book Title: An Edited Title       
+Updated Author's Name: John Correct          
+
+Reminder: type 'exit' when ready to quit.
+
+'Add', 'Search', 'Directory', 'Edit', or 'Remove' a book from the catalog: directory
+
+Reminder: type 'back' when ready to go back to the main menu.
+
+DIRECTORY: Would you prefer to see the 'ISBN' or 'book title' directory? isbn
+     ISBN  Reference Number
+0  D00001                 0
+1  D00002                52
+2  D00005               156
+3  G00006               208
+4  L00003               104
+5  S00099               364
+6  U00007               260
+
+Reminder: type 'back' when ready to go back to the main menu.
+
+DIRECTORY: Would you prefer to see the 'ISBN' or 'book title' directory? title
+               Book Title    ISBN
+0  An Edited Title         S00099
+1  Catching Fire           D00002
+2  Mockingjay              L00003
+3  The Death Cure          U00007
+4  The Hunger Games        D00001
+5  The Maze Runner         D00005
+6  The Scorch Trials       G00006
+
+Reminder: type 'back' when ready to go back to the main menu.
+
+DIRECTORY: Would you prefer to see the 'ISBN' or 'book title' directory? back
+
+Reminder: type 'exit' when ready to quit.
+
+'Add', 'Search', 'Directory', 'Edit', or 'Remove' a book from the catalog: add
+
+INSTRUCTIONS
+Type in book information. Each record can only store 50 characters.
+ISBNs can hold up to 6 characters (randomly assigned letter + 5 characters)
+Book Name can hold up to 22 characters.
+Author Name can hold up to 22 characters.
+Any part of the record past the limit of characters will be cut off.
+
+Enter isbn: 000022
+Enter book name: The Silent Patient
+Enter author's name: Alex Michaelides
+
+Book Added
+ISBN: T00022
+Book Title: The Silent Patient    
+Author: Alex Michaelides      
+
+Reminder: type 'exit' when ready to quit.
+
+'Add', 'Search', 'Directory', 'Edit', or 'Remove' a book from the catalog: add
+
+INSTRUCTIONS
+Type in book information. Each record can only store 50 characters.
+ISBNs can hold up to 6 characters (randomly assigned letter + 5 characters)
+Book Name can hold up to 22 characters.
+Author Name can hold up to 22 characters.
+Any part of the record past the limit of characters will be cut off.
+
+Enter isbn: T00022
+ISBN already exists. Create a new one.
+
+Enter isbn: 000066
+Enter book name: Professional Idiot
+Enter author's name: Steve-O
+
+Book Added
+ISBN: A00066
+Book Title: Professional Idiot    
+Author: Steve-O               
+
+Reminder: type 'exit' when ready to quit.
+
+'Add', 'Search', 'Directory', 'Edit', or 'Remove' a book from the catalog: directory
+
+Reminder: type 'back' when ready to go back to the main menu.
+
+DIRECTORY: Would you prefer to see the 'ISBN' or 'book title' directory? isbn
+     ISBN  Reference Number
+0  A00066               416
+1  D00001                 0
+2  D00002                52
+3  D00005               156
+4  G00006               208
+5  L00003               104
+6  S00099               364
+7  T00022               312
+8  U00007               260
+
+Reminder: type 'back' when ready to go back to the main menu.
+
+DIRECTORY: Would you prefer to see the 'ISBN' or 'book title' directory? title
+               Book Title    ISBN
+0  An Edited Title         S00099
+1  Catching Fire           D00002
+2  Mockingjay              L00003
+3  Professional Idiot      A00066
+4  The Death Cure          U00007
+5  The Hunger Games        D00001
+6  The Maze Runner         D00005
+7  The Scorch Trials       G00006
+8  The Silent Patient      T00022
+
+Reminder: type 'back' when ready to go back to the main menu.
+
+DIRECTORY: Would you prefer to see the 'ISBN' or 'book title' directory? back
+
+Reminder: type 'exit' when ready to quit.
+
+'Add', 'Search', 'Directory', 'Edit', or 'Remove' a book from the catalog: search
+
+Reminder: type 'back' when ready to go back to the main menu.
+
+SEARCH: Would you prefer to search by 'ISBN' or 'book title'? isbn
+Search by ISBN: D00005
+
+Search Results:
+D00005|The Maze Runner       |James Dashner         
+
+Reminder: type 'back' when ready to go back to the main menu.
+
+SEARCH: Would you prefer to search by 'ISBN' or 'book title'? title
+Search by book title: Catching Fire
+
+Search Results:
+D00002|Catching Fire         |Suzanne Collins       
+
+Reminder: type 'back' when ready to go back to the main menu.
+
+SEARCH: Would you prefer to search by 'ISBN' or 'book title'? back
+
+Reminder: type 'exit' when ready to quit.
+
+'Add', 'Search', 'Directory', 'Edit', or 'Remove' a book from the catalog: exit
+
+Thank you for using Library of Students Catalog System!
