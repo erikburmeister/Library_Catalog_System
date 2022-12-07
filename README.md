@@ -3,7 +3,6 @@ Assignment Instructions: You will implement a simple library catalog system in w
 
 # Requirements: 
 python == 3.7.4
-
 pandas == 0.25.1
 
 # For Users
